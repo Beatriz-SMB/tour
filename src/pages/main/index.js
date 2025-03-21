@@ -1,8 +1,7 @@
 import { useRef } from "react";
 import { Container } from './styles';
 import { Logo } from '../../assets/img'
-import Header from '../../components/header';
-import Footer from '../../components/footer';
+import { Header, Footer } from "../../components";
 
 const Main = () => {
 

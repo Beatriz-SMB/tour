@@ -1,7 +1,15 @@
+import { SkipButton } from "../components";
+
 export const steps = [
     {
       selector: ".first-step",
-      content: "Welcome! This is the site title",
+      content: ({ setCurrentStep, currentStep }) => (
+        <div>
+          <h3>Welcome!</h3>
+          <p>This is step one.</p>
+          <SkipButton nextStepIndex={currentStep + 4} />
+        </div>
+      ),
     },
     {
       selector: ".second-step",
