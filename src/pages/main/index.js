@@ -14,7 +14,7 @@ const Main = () => {
         <Container>
             <Header homeRef={homeRef} servicesRef={servicesRef} aboutRef={aboutRef}/>
             <section className='home' ref={homeRef}>
-                <h1 className='first-step'>Um título qualquer <br />para um <br />site qualquer</h1>
+                <h1 className='first-step'>A random title <br />for a <br />random site</h1>
                 <img src={Logo} alt='logo' className='second-step'/>
             </section>
             <section className='services' ref={servicesRef}>
